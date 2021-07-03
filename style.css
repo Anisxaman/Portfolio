@@ -13,8 +13,12 @@ section{
 .half-width{
     width:40%;
     float: left;
-    margin-left: 79px;
+    margin-left: 49px;
     padding-left: 2%;
+}
+
+#full-stack{
+    margin-left: 109px;
 }
 h1{
     font-size: 50px;
