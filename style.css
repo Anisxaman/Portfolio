@@ -175,3 +175,111 @@ footer p{
 
 
 }
+
+
+
+@media only screen and (max-width: 441px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    img{
+        width: 100px;
+        height: 400px;
+        padding: auto;
+        margin: 42px 0;
+    }
+
+     h1 span{
+         display: block;
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        margin: 0 auto;
+  }
+  h1,h2,h3,p{
+      display: block;
+      text-align: center;
+  }
+  h2{
+      display: block;
+      /* font-size: medium; */
+      margin-left: 0;
+  }
+  a{
+      margin-bottom: 10px;
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+  }
+
+  .half-width{
+      width: 80%;
+      margin-bottom: 50px;
+      margin: 50px 50px;
+
+  }
+
+  #full-stack{
+      width: 100%;
+      margin-left: 0;
+    
+  }
+#baby-web{
+    width: 100%;
+    margin-left: 0;
+}
+
+
+  .contain{
+      display: flex;
+      flex-direction:column;
+
+  }
+
+  .a{
+    order: 2;
+    
+  }
+  #b{
+      order: 1;
+  }
+
+
+  #pic2{
+      margin-top: 760px;
+
+  }
+
+
+  .dream-area{
+  background-size: 70px;
+    
+}
+
+.anchor-button{
+    width: 20%;
+    margin: 0;
+}
+
+#btn{
+    width: 50%;
+}
+
+#credit{
+    
+    margin-top: 188px;
+
+}
+
+#build{
+    margin-left: 0;
+}
+
+
+
+}
+
