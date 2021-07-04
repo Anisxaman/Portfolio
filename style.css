@@ -10,6 +10,7 @@ section{
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    background-size: 100rem;
 }
 
 #header{
@@ -53,6 +54,7 @@ p{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    
 }
 h2{
     font-size: 40px;
@@ -118,6 +120,11 @@ footer p{
       display: block;
       text-align: center;
   }
+  h2{
+      display: block;
+      /* font-size: medium; */
+      margin-left: 0;
+  }
   a{
       margin-bottom: 10px;
       display: block;
@@ -136,24 +143,33 @@ footer p{
 
   #full-stack{
       width: 100%;
+      margin-left: 0;
     
   }
 #baby-web{
     width: 100%;
+    margin-left: 0;
 }
 
 
-  .sec{
+  .contain{
       display: flex;
       flex-direction:column;
 
   }
 
-  .sec half-width a{
-      order: 0;
+  .a{
+    order: 2;
+    
   }
-  .sec half-width b{
+  #b{
       order: 1;
+  }
+
+
+  #pic2{
+      margin-top: 580px;
+
   }
 
 
