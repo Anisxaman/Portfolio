@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    margin-top: -42px;
 }
 section{
     height: 500px;
@@ -10,13 +11,20 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+
+#header{
+    display: block;
+    text-align: center;
+}
 .half-width{
     width:40%;
     float: left;
     margin-left: 49px;
     padding-left: 2%;
 }
-
+.main{
+    width: 50%;
+}
 #full-stack{
     margin-left: 109px;
 }
@@ -53,6 +61,7 @@ h2{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    
 }
 .experience-area h3{
     color: orange;
@@ -60,20 +69,26 @@ h2{
 
 .experience-area div{
     box-shadow: 5px 7px 40px gray;
-    height: 80%;
+    height: 100%;
+    
 }
 #full-stack{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    
+    
+
 }
 footer p{
     text-align: center;
+    margin-top: 0;
 
 }
 
@@ -115,13 +130,17 @@ footer p{
   .half-width{
       width: 80%;
       margin-bottom: 50px;
+      margin: 25px 50px;
+
   }
 
-  .full-stack{
+  #full-stack{
       width: 100%;
-      margin-bottom: 50px;
+    
   }
-
+#baby-web{
+    width: 100%;
+}
 
 
   .sec{
@@ -130,10 +149,10 @@ footer p{
 
   }
 
-  .a{
+  .sec half-width a{
       order: 0;
   }
-  .b{
+  .sec half-width b{
       order: 1;
   }
 
