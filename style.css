@@ -11,6 +11,14 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     background-size: 100rem;
+    
+}
+
+#pos{
+display: block;
+  margin-left: auto;
+  margin-right: 60px;
+ 
 }
 
 #header{
@@ -26,9 +34,7 @@ section{
 .main{
     width: 50%;
 }
-#full-stack{
-    margin-left: 109px;
-}
+
 h1{
     font-size: 50px;
 }
@@ -46,10 +52,20 @@ h1 span{
     color: white;
     font-weight: 700;
 }
+
+
+
 p{
     color: dimgray;
     padding-right: 35px;
+    
 }
+
+
+
+
+
+
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
@@ -59,42 +75,66 @@ p{
 h2{
     font-size: 40px;
 }
-.experience-area{
+
+.common{
+    display: flex;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    
 }
 .experience-area h3{
     color: orange;
 }
 
-.experience-area div{
-    box-shadow: 5px 7px 40px gray;
+.experience-area{
     height: 100%;
-    
+}
+
+.common div{
+    box-shadow: 5px 7px 40px gray;
+    height: 500px;
 }
 #full-stack{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    margin-left: 109px;
+    border-radius: 10px;
+
     
+}
+
+
+.haalf{
+    width:40%;
+    float: left;
+    margin-left: 49px;
+    padding-left: 2%;
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
-    
-    
+    border-radius: 10px;
+    margin-left: 109px;
 
+
+   
+  
+}
+
+footer{
+    background: cyan;
+    padding: 30px 0;
+   
 }
 footer p{
     text-align: center;
     margin-top: 0;
-
+    font-weight: bolder;
 }
 
-
+/* ----------------------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -115,16 +155,21 @@ footer p{
         font-size: 40px;
         width: 100%;
         margin: 0 auto;
-  }
-  h1,h2,h3,p{
-      display: block;
-      text-align: center;
-  }
+             }
+        h1,h2,h3,p{
+            display: block;
+            text-align: center;
+            
+        }
+
+
+
   h2{
       display: block;
       /* font-size: medium; */
       margin-left: 0;
   }
+
   a{
       margin-bottom: 10px;
       display: block;
@@ -141,11 +186,26 @@ footer p{
 
   }
 
+  .haalf{
+    width: 80%;
+    margin-bottom: 50px;
+    margin: 25px 50px;
+    
+    overflow:scroll;
+
+}
+
+
   #full-stack{
       width: 100%;
       margin-left: 0;
     
   }
+
+
+
+
+
 #baby-web{
     width: 100%;
     margin-left: 0;
@@ -176,7 +236,7 @@ footer p{
 
 }
 
-
+/* ----------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 441px) {
     /* For mobile phones: */
@@ -200,7 +260,7 @@ footer p{
   }
   h1,h2,h3,p{
       display: block;
-      text-align: center;
+      text-align: center;     
   }
   h2{
       display: block;
@@ -220,14 +280,43 @@ footer p{
       width: 80%;
       margin-bottom: 50px;
       margin: 50px 50px;
+      
+        
+    }
 
-  }
+
+ 
+  
 
   #full-stack{
       width: 100%;
       margin-left: 0;
-    
+
+      background-color:#eee;
+    width: 300px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: scroll;
+    margin-top: 20;
+      
   }
+  .haalf{
+      
+      overflow:scroll;
+  }
+
+ 
+
+  /* p,h2,h3{
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word
+    font-size: 2px;
+    
+ } */
+
+
+
 #baby-web{
     width: 100%;
     margin-left: 0;
@@ -282,4 +371,17 @@ footer p{
 
 
 }
+
+
+
+
+
+@media only screen and (max-width: 895px) {
+    .haalf{
+      
+        overflow:scroll;
+    }
+
+}
+
 
