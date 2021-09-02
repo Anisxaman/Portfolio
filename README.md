@@ -1,5 +1,5 @@
 # developer-portfolio
 ## Author
-[Anishuzzaman] [author] 
+[Anishuzzaman][author] 
 
 [author]: https://www.facebook.com/anishuzzaman/
